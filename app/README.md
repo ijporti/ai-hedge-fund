@@ -104,9 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data from Financial Modeling Prep
-FINANCIAL_MODELING_PREP_API_KEY=your-fmp-api-key
+# For getting financial data (required for stock analysis)
+FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
-# For getting financial data from Polygon.io
-POLYGON_API_KEY=your-polygon-api-key
+# Note: You can get a free Financial Datasets API key at https://financialdatasets.ai/
 ```
