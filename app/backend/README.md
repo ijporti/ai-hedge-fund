@@ -66,6 +66,9 @@ The API will be available at:
 - API Endpoint: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 
+> **Personal note:** I also run this with `--port 8080` locally to avoid conflicts with other services on port 8000.
+> Example: `poetry run uvicorn main:app --reload --port 8080`
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -97,4 +100,4 @@ This project is for **educational and research purposes only**.
 - Not intended for real trading or investment
 - No warranties or guarantees provided
 - Creator assumes no liability for financial losses
-- Consult a financial advisor before making any investment decisions
+- Cons
