@@ -66,8 +66,11 @@ The API will be available at:
 - API Endpoint: http://localhost:8000
 - API Documentation: http://localhost:8000/docs
 
-> **Personal note:** I also run this with `--port 8080` locally to avoid conflicts with other services on port 8000.
+> **Personal note:** I run this on port 8080 to avoid conflicts with other local services.
 > Example: `poetry run uvicorn main:app --reload --port 8080`
+>
+> I also find it useful to pass `--log-level debug` when troubleshooting agent graph issues:
+> `poetry run uvicorn main:app --reload --port 8080 --log-level debug`
 
 ## API Endpoints
 
@@ -95,9 +98,4 @@ app/backend/
 
 ## Disclaimer
 
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No warranties or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+This project is for **educat
